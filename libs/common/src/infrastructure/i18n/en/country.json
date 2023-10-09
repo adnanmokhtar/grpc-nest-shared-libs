@@ -1,0 +1,23 @@
+{
+    "error": {
+        "unable_to_create_country": "Unable to create country",
+        "country_already_exists": "Country '{countryName}' already exists.",
+        "invalid_iso_code": "Invalid ISO code. ISO code must consist of two letters.",
+        "country_not_found": "Country with ID {countryId} not found.",
+        "country_trnslation_not_found": "Country translation with ID {countryTranslationId} not found.",
+        "unable_to_retrieve_country": "Unable to retrieve the country.",
+        "unable_to_retrieve_countries": "Unable to retrieve countries.",
+        "unable_to_delete_country": "Unable to delete country.",
+        "country_not_found_for_retrieval": "Country not found for retrieval.",
+        "country_not_found_for_deletion": "Country not found for deletion."
+    },
+    "success": {
+        "country_created": "Country created successfully",
+        "country_retrieved": "Country retrieved successfully.",
+        "countries_retrieved": "Countries retrieved successfully.",
+        "country_deleted": "Country deleted successfully."
+    },
+    "attributes": {
+        "iso_code": "Iso Code"
+    }
+}

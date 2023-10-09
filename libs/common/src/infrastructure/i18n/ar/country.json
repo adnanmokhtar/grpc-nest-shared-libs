@@ -1,0 +1,13 @@
+{
+    "error": {
+      "unable_to_create_country": "غير قادر على إنشاء الدولة",
+      "country_already_exists": "الدولة '{countryName}' موجود بالفعل."
+    },
+    "success": {
+      "country_created": "تم إنشاء الدولة بنجاح"
+    },
+    "attributes": {
+      "iso_code": "رمز الـ ISO"
+    }
+  }
+  

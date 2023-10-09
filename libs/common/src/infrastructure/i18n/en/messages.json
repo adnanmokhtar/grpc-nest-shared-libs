@@ -1,0 +1,12 @@
+{
+    "error": {
+        "entity_not_found": "{entityName} not found",
+        "resource_not_found": "Resource not found",
+        "internal_server_error": "Internal Server Error",
+        "input_data_validation_failed": "Input data validation failed",
+        "value_cannot_be_empty": "Value cannot be empty",
+        "invalid_name": "Invalid name. Name must be between 2 and 255 characters.",
+        "invalid_locale_code": "Invalid Locale code. Locale code must consist of two letters.",
+        "invalid_email": "Invalid email address"
+    }
+}

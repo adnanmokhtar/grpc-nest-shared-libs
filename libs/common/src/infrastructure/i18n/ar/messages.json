@@ -1,0 +1,8 @@
+{
+  "error": {
+    "entity_not_found": "{entityName} غير موجود",
+    "resource_not_found": "المورد غير موجود",
+    "internal_server_error": "خطأ في الخادم الداخلي",
+    "input_data_validation_failed": "فشل التحقق من صحة بيانات الإدخال"
+  }
+}

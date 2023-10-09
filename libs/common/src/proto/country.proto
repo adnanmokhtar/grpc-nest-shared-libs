@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+// Define the package name for the protobuf definitions
+package countryproto;
+
+// Define the "CountryService" gRPC service
+service CountryService {
+  // RPC method to create a country
+  rpc createCountry (createCountryRequest) returns (createCountryResponse);
+}
+
+// Define the request message for the "createCountry" RPC method
+message createCountryRequest {
+  string name = 1;       // Field for the name of the country
+  string iso_code = 2;   // Field for the ISO code of the country
+  string is_active = 3;  // Field for indicating if the country is active
+}
+
+// Define the response message for the "createCountry" RPC method
+message createCountryResponse {
+   string message = 1;  // Field for a response message indicating the result of the operation
+}
